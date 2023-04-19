@@ -243,6 +243,8 @@ public class ProductDB {
             e.printStackTrace();
         }
 
+        JOptionPane.showMessageDialog(null, "Product selected successfully");
+
     }
 
     public void updatingProductQuantity(String userName, String password) {

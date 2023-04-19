@@ -49,6 +49,7 @@ public class CartDB {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        JOptionPane.showMessageDialog(null, "Items deleted");
     }
 
     public void deletingPositionFromCart(String partName, String userName, String password) throws SQLException {
